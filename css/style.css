@@ -49,7 +49,7 @@ header{
 	padding: 10px;
 	margin-top: 50px;
 }
-
+/*
 .fa-shopping-cart, .fa-laptop{
 	font-size: 3em;
 	border: 15px solid #fec503;
@@ -62,11 +62,13 @@ header{
 	padding-right: 8px;
 	padding-left: 8px;
 }
-
+*/
 #portfolio, #team{
 	background-color: #eee;
 }
-
+#team, #about, #services{
+	padding: 50px;
+}
 #team img{
 	border: 8px solid whitesmoke;
 	border-radius: 150px;
@@ -101,11 +103,21 @@ header{
     padding: 20px 40px;
     margin-top: 30px;
 }
-.caja-blanca{
-	background-color: white;
-	box-sizing: border-box;
+#portfolio{
+	z-index: 2;
+	padding: 50px;
 }
-/*TIMELINE ABOUT*/
+#portfolio img{
+	margin: 0 auto;
+}
+.caja-blanca{
+	max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+/*TIMELINE ABOUT
 @media (min-width: 768px){
 
 .timeline>li {
@@ -127,7 +139,7 @@ li {
     padding: 0;
     position: relative;
 }
-/**/
+*/
 
 footer{
 	padding: 30px;
@@ -153,7 +165,7 @@ footer{
     list-style: none;
 }
 .list-inline li{
-	    display: inline-block;
+	display: inline-block;
     padding-right: 5px;
     padding-left: 5px;
 }
@@ -161,9 +173,39 @@ footer{
     display: inline-block;
     font: normal normal normal 14px;
     font-size: inherit;
-    text-rendering: auto;
 }
 
 .privacy{
 	color: #fec503;
+}
+
+
+.circleyellow{
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+.cy{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    color: #fec503;
+}
+.cy1{
+	position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font: normal normal normal 14px/1;
+    line-height: inherit;
+}
+
+.cy2{
+	font-size: 4em;
 }
