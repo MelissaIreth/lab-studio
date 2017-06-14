@@ -1,3 +1,6 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
 nav{
 	padding: 30px;
 }
@@ -68,16 +71,99 @@ header{
 	border: 8px solid whitesmoke;
 	border-radius: 150px;
 }
-#about img{
-	border: none;
-	border-radius: 150px;
+#logos{
+	padding: 50px;
 }
 #contact{
 	background-image: url(../img/map-image.png);
 	background-color: #222;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.l-contact{
+	color: whitesmoke;
+	padding: 10px;
+}
+.los-input{
+	margin-bottom: 25px;
+	height: 42px;
+}
+.last-input{
+	height: 42px;
 }
 
+.btn-msg{
+	color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+    margin-top: 30px;
+}
 .caja-blanca{
 	background-color: white;
 	box-sizing: border-box;
+}
+/*TIMELINE ABOUT*/
+@media (min-width: 768px){
+
+.timeline>li {
+    margin-bottom: 100px;
+    min-height: 100px;
+}
+
+.timeline>li {
+    margin-bottom: 50px;
+    position: relative;
+    min-height: 50px;
+}
+li {
+    display: list-item;
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+/**/
+
+footer{
+	padding: 30px;
+}
+.social li a{
+	display: block;
+    background-color: #222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    outline: 0;
+
+}
+.social a:hover{
+	background-color: #fec503;
+}
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+.list-inline li{
+	    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.fa-twitter, .fa-facebook, .fa-linkedin {
+    display: inline-block;
+    font: normal normal normal 14px;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+.privacy{
+	color: #fec503;
 }
