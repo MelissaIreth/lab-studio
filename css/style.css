@@ -63,3 +63,21 @@ header{
 #portfolio, #team{
 	background-color: #eee;
 }
+
+#team img{
+	border: 8px solid whitesmoke;
+	border-radius: 150px;
+}
+#about img{
+	border: none;
+	border-radius: 150px;
+}
+#contact{
+	background-image: url(../img/map-image.png);
+	background-color: #222;
+}
+
+.caja-blanca{
+	background-color: white;
+	box-sizing: border-box;
+}
