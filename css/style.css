@@ -1,14 +1,28 @@
 *{
 	font-family: 'Montserrat', sans-serif;
 }
+body{
+	position: relative;
+}
 /*NAV*/
 nav{
-	padding: 30px;
+	padding: 0px;
 }
 nav.navbar-toggle{
 	background-color: #fed136;
     border-color: #fed136;
     font-size: 12px;
+}
+.navbar-inverse{
+	background-color: rgba(0,0,0,0);
+	border-color: rgba(8,8,8,0);
+}
+.navbar-inverse .navbar-nav>.active>a{
+	background-color: #fec503;
+	color: #222;
+}
+.navbar-inverse .navbar-brand{
+	color: #fec503;
 }
 .kaushan{
 	font-family: 'Kaushan Script', cursive;
@@ -16,16 +30,25 @@ nav.navbar-toggle{
 .logo{
 	font-size: 2em;
 }
-a{
+.navbar-inverse .navbar-nav>li>a{
 	color: whitesmoke;
 }
-a:hover{
+.navbar-inverse .navbar-nav>li>a:hover{
 	color: #fec503;
 	background-color: none;
 }
 .lyellow{
 	color: #fec503;
 	border: none;
+}
+
+.addscroll{
+	background-color: #222;
+	padding: 20px;
+	margin: 0;
+}
+.noscroll{
+	padding: 20px;
 }
 
 /*HEADER*/
